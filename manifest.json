@@ -1,5 +1,5 @@
 {
-  "source_base_path": "c:/document/uc_2024/sample/地区防災計画作成支援システム(manual)/markdown",
+  "source_base_path": "C:/document/uc_2024/sample/manual/markdown",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -59,6 +59,26 @@
       "output": {
         ".html": {
           "relative_path": "manual/userMan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/userMan2.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/userMan2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/userMan3.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/userMan3.html"
         }
       },
       "version": ""

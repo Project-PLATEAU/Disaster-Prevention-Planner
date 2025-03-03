@@ -1,4 +1,4 @@
-- name: 洪水浸水想定区域の時系列データ変換システム
+- name: 地区防災計画作成支援システム
   href: ../index.md
 - name: 利用を開始する
   items:
@@ -6,5 +6,9 @@
     href: devMan.md
   - name: 環境構築手順書(Re:Earth Visualizer)
     href: devMan2.md
-  - name: 操作マニュアル
+  - name: 操作マニュアル(住民向け)
     href: userMan.md
+  - name: 操作マニュアル(自治会向け)
+    href: userMan2.md
+  - name: 操作マニュアル(行政向け)
+    href: userMan3.md

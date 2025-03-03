@@ -1,10 +1,10 @@
-# 環境構築手順書(Re:Earth Vizualizer)
+# 環境構築手順書(Re:Earth Visualizer)
 
 # 1 本書について
 
 本書では、地区防災計画作成支援システム(以下 本システム)内で利用しているRe:Earth Visualizer(以下 Visualizer)の利用環境構築手順について記載しています。本システムの構成や仕様の詳細については以下も参考にしてください。
 
-[技術検証レポート](https://www.mlit.go.jp/XXXX)
+[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0107_ver01.pdf)
 
 # 2 Visualizer 構成
 本システムで利用するVisualizerコンテンツは以下となっています。
@@ -23,9 +23,17 @@
 
 # 3 準備物
 各プラグインをGitHubリポジトリより取得してください。
-各プラグインは、pluginディレクトリ以下にあります。
+```sh
+git clone https://github.com/Project-PLATEAU/Disaster-Prevention-Planner.git
+```
+
+各プラグインは、pluginディレクトリ以下にあります。  
+[plugin](https://github.com/Project-PLATEAU/Disaster-Prevention-Planner/tree/main/plugin)
 
 # 4 稼働環境構築
+## 4-0 Re:Earth Visualizer
+Re:Earth Visualizerの公式Webページにてユーザアカウントを作成します。
+
 ## 4-1 プラグインについて
 すべてのプラグインは、
 

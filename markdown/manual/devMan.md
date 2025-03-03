@@ -4,7 +4,7 @@
 
 本書では、地区防災計画作成支援システム（以下「本システム」という。）の利用環境構築手順について記載しています。本システムの構成や仕様の詳細については以下も参考にしてください。
 
-[技術検証レポート](https://www.mlit.go.jp/XXXX)
+[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0107_ver01.pdf)
 
 # 2 システム構成
 
@@ -28,6 +28,9 @@
 
 # 3 準備物
 本システムをGitHubリポジトリより取得してください。
+```sh
+git clone https://github.com/Project-PLATEAU/Disaster-Prevention-Planner.git
+```
 本システムは、systemディレクトリ以下となります。
 
 # 4 稼働環境構築
