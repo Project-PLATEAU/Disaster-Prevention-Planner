@@ -316,8 +316,8 @@ class MyplanController extends Controller
         $filename = explode(',', $data->filename);
 
         $name = '個別避難計画.xlsx';
-        $path = Storage::path('resident\\excel\\' . $filename[0]);
-        $mimeType = Storage::mimeType('resident\\excel\\' . $filename[0]);
+        $path = Storage::path('resident/excel/' . $filename[0]);
+        $mimeType = Storage::mimeType('resident/excel/' . $filename[0]);
         $headers = [['Content-Type' => $mimeType]];
 
         return response()->download($path, $name, $headers);
@@ -335,8 +335,8 @@ class MyplanController extends Controller
         $filename = explode(',', $data->filename);
 
         $name = '個別避難計画.pdf';
-        $path = Storage::path('resident\\pdf\\' . $filename[1]);
-        $mimeType = Storage::mimeType('resident\\pdf\\' . $filename[1]);
+        $path = Storage::path('resident/pdf/' . $filename[1]);
+        $mimeType = Storage::mimeType('resident/pdf/' . $filename[1]);
         $headers = [['Content-Type' => $mimeType]];
 
         return response()->download($path, $name, $headers);
