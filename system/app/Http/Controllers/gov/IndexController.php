@@ -47,8 +47,8 @@ class IndexController extends Controller
         $filename = explode(',', $data->filename);
 
         $name = '地区防災計画.pdf';
-        $path = Storage::path('org\\pdf\\' . $filename[1]);
-        $mimeType = Storage::mimeType('org\\pdf\\' . $filename[1]);
+        $path = Storage::path('org/pdf/' . $filename[1]);
+        $mimeType = Storage::mimeType('org/pdf/' . $filename[1]);
         $headers = [['Content-Type' => $mimeType]];
 
         return response()->download($path, $name, $headers);
